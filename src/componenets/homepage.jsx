@@ -8,26 +8,26 @@ export default function HomePga(){
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     return(
-        <section className="h-screen">   
+        <section className="min-h-screen">   
         <div className="hidden lg:relative lg:mt-5">
           <img src="./pics/vectortotop.png" alt="" />
           <img src="./pics/vectortop.png" alt="" />
         </div>
       
-        <div className="grid lg:grid-cols-6  pr-[140px]">  
+        <div className="grid lg:grid-cols-6  pr-[100px]">  
           <div className="col-span-6">
             {/* BigVector Image */}
             <img src="./pics/bigvectpr.png" alt="" className="hidden lg:absolute -top-28" />
       
             {/* Mobile Vector Images */}
             <div className="flex absolute mt-[21.5rem] -left-6 ">
-            <img src="./pics/bigvectpr.png" alt="" className="absolute -top-[335px] ml-16 lg:ml-20 lg:-mt-20 " />
+            <img src="./pics/bigvectpr.png" alt="" className="absolute -top-[335px] ml-10 lg:ml-20 lg:-mt-20 " />
               <img src="./pics/mobile/vecdown.png" alt="" />
-              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0"/>
-              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0"/>
-              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0" />
-              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0"/>
-              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0"/>
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-3 lg:ml-0"/>
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-3 lg:ml-0"/>
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-3 lg:ml-0" />
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-3 lg:ml-0"/>
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-3 lg:ml-0"/>
             </div>
         </div>
       </div>
@@ -61,18 +61,18 @@ export default function HomePga(){
         </div>
     </div>
 
-    <div className="lg:col-span-4 lg:w-[826px] lg:h-[413.65] lg:w-[750px] lg:h-[320.65]">
-        <img src="./pics/carpic.png" alt="" className="-ml-3 lg:col-span-6 lg:-mt-[25rem] lg:ml-[33.5rem] lg:w-[826px] lg:h-[413.65]" />
+    <div className="lg:col-span-4  lg:w-[750px] lg:h-[320.65]">
+        <img src="./pics/carpic.png" alt="" className="-ml-2 lg:col-span-6 lg:-mt-[25rem] lg:ml-[33.5rem] lg:w-[826px] lg:h-[413.65] " />
     </div>
 
-    <div className="flex mt-24 -ml-3 lg:hidden">
-        <img src="./pics/mobile/patternright.png" alt="" className="-ml-[10px]" />
-        <img src="./pics/mobile/patternleft.png" alt="" className="ml-[36px]" style={{position:"relative",top:"-1rem"}} />
+    <div className="flex -ml-3 lg:hidden">
+        <img src="./pics/mobile/patternright.png" alt="" className="-ml-[10px]  w-[50%]" />
+        <img src="./pics/mobile/patternleft.png" alt="" className="ml-[36px] w-[50%]" style={{position:"relative",top:"-1rem"}} />
     </div>
 
    {/*imgs row, scroller */}
- <div>
-    <div className="overflow-x-hidden flex w-max -mt-[727px]  gap-3 animate-scrollLeft will-change-transform scrollbar-transparent lg:mt-9" style={{overflow:"hidden"}}>
+ <div className="w-full overflow-x-hidden -mt-[46rem] md:mt-0">
+    <div className="flex w-max gap-3 animate-scrollLeft will-change-transform scrollbar-transparent lg:mt-9">
         <img src="./pics/sixthimg.png" alt="" className="w-[200px]" />
         <img src="./pics/seventhimg.png" alt="" className="w-[200px]"/>
         <img src="./pics/eightimg.png" alt="" className="w-[200px]" />
@@ -112,13 +112,13 @@ export default function HomePga(){
     {/*Second Layout */}
     <div className="flex gap-20 -mt-12 -ml-20 lg:ml-[40rem] lg:gap-3 lg:mt-1 ">
         <img src="./pics/smallcarf.png" alt="" className="lg:-mt7" />
-        <button onClick={GoToTheTop}><img src="./pics/vectorgoup.png" alt="" className="h-[58.36px] w-[57px] mt-7 ml-7 lg:-mt-4 lg:ml-12 lg:h-[77.6.36px] lg:w-[77.6px]"/> </button>
+        <button onClick={GoToTheTop}><img src="./pics/vectorgoup.png" alt="" className="h-[58.36px] w-[57px] mt-4 ml-5 lg:-mt-4 lg:ml-12 lg:h-[77.6.36px] lg:w-[77.6px]"/> </button>
     </div>
-    <div className="relative h-full w-full lg:hidden " >
-        <div style={{backgroundImage:"url('./pics/mobile/formbgm.png')",  clipPath: 'polygon(20% 0%, 82% 0, 100% 12%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 0)',
-                 WebkitClipPath: 'polygon(20% 0%, 66% 0, 100% 16%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 0)'}} className="relative bg-no-repeat w-screen mt-[27rem] z-0 h-screen" >
+
+    <div className=" md:hidden lg:hidden " >
+        <div style={{backgroundImage:"url('./pics/mobile/formbgm.png')",  clipPath: 'polygon(10% 0%, 82% 0, 100% 10%, 100% 100%, 80% 100%, 8% 100%, 0 100%, 0 0)'}} className="relative bg-no-repeat w-full mt-[27rem] z-0" >
         
-        <img src="./pics/fortyeightmobile.png" alt="" className="relative z-10 -mt-[31.5rem] -ml-[0.3rem] mx-auto " style={{top:"8rem"}} />
+        <img src="./pics/fortyeightmobile.png" alt="" className="relative z-10 -mt-[31.5rem] -ml-[0.3rem]  " style={{top:"8rem"}} />
         <div className="relative z-10 -mt-32 ml-[27.3px]">
            <div>
              <img src="./pics/mobile/whiteline.png" alt="" className="w-[227.4px]" />
@@ -150,13 +150,13 @@ export default function HomePga(){
            
            
             <div
-  className="relative z-0 bg-no-repeat bg-cover py-8 px-6 w-full h-full -ml-4 "
+  className="relative z-0 bg-no-repeat bg-cover w-full min-h-[495px] py-8 px-6 -ml-5 "
   style={{ backgroundImage: "url('./pics/formbgd.png')" }}
 >
 <p className="flex w-[268.34px] ml-7 p-2">
                 <img src="./pics/redline.png" className="" alt="" />
                 <p className="font-neo text-[16.38px] uppercase text-[#C81717] -ml-[12.5rem]">PARLEZ-NOUS</p>
-            </p>
+</p>
  
 
   {/* Form Section */}
@@ -188,25 +188,18 @@ export default function HomePga(){
       onChange={(e) => setMessage(e.target.value)}
       className="w-full p-3 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px] custom-input h-24 resize-none"
     />
-    <button className="bg-gradient-to-r from-[#C81717] to-[#700000] text-white px-4 py-2  shadow-md w-[313.51px] " style={{clipPath:"polygon(20% 0%, 98% 0, 100% 22%, 100% 100%, 80% 100%, 3% 100%, 0 77%, 0 0)"}}>
+    <button className="bg-gradient-to-r from-[#C81717] to-[#700000] text-white px-4 py-2  shadow-md w-full " style={{clipPath:"polygon(20% 0%, 98% 0, 100% 22%, 100% 100%, 80% 100%, 3% 100%, 0 77%, 0 0)"}}>
       Envoyé
     </button>
   </form>
-  <p className="text-[15.55px] uppercase font-turretBold text-white text-center mt-7 ">© SOFTCACTUS, Tous les droits sont réservés, 2025</p>
-</div>
-
-           </div>
-          
+  
+</div> 
+<p className="text-[15.55px] uppercase font-turretBold text-white text-center -mt-12 ">© SOFTCACTUS, Tous les droits sont réservés, 2025</p>
+           </div>      
         </div>
-
-       
-        </div>
+      </div>
 
  {/*desktop layout */}
- 
-       
-
-   
    
     <div className="hidden lg:block relative h-screen lg:mt-10 lg:-ml-10 lg:w-screen lg:mr-4  lg:mt-52" >
         <div style= {{backgroundImage:"url('./pics/bgjoinus.png')",  clipPath: 'polygon(18% 0, 80% 0%, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 18%)',

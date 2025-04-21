@@ -164,8 +164,8 @@ export default function Acceuil() {
       </div>
 <div className="relative "> 
   <div className="flex gap-[30px] items-center">
-    <img src="/pics/carwheelpat1.png" alt="car wheel pattern" className="w-[47%] xl:h-[800px]  h-[500px]" />
-    <img src="/pics/carwheelpat.png" alt="car wheel pattern" className="w-[47%] xl:h-[800px] h-[500px]" />
+    <img src="/pics/carwheelpat1.png" alt="car wheel pattern" className="w-[46%] xl:h-[800px]  h-[500px] xl:w-full" />
+    <img src="/pics/carwheelpat.png" alt="car wheel pattern" className="w-[46%] xl:h-[800px] h-[500px] xl:w-full"  />
   </div>
   <div className="absolute xl:top-[65px] 2xl:top-[40px] top-[15px] md:mb-8 left-0 right-0 flex items-center justify-center w-[99%] md:mt-10 ">
     <div className="flex items-center">
