@@ -65,26 +65,25 @@ export default function HomePga(){
         <img src="./pics/carpic.png" alt="" className="-ml-2 lg:col-span-6 lg:-mt-[25rem] lg:ml-[33.5rem] lg:w-[826px] lg:h-[413.65] " />
     </div>
 
-    <div className="flex -ml-3 lg:hidden">
-        <img src="./pics/mobile/patternright.png" alt="" className="-ml-[10px]  w-[50%]" />
-        <img src="./pics/mobile/patternleft.png" alt="" className="ml-[36px] w-[50%]" style={{position:"relative",top:"-1rem"}} />
-    </div>
+    <div className="flex gap-[30px] items-center relative z-0">
+  <img src="/pics/carwheelpat1.png" alt="car wheel pattern" className="w-[47%] xl:h-[800px] h-[500px] xl:w-full" />
+  <img src="/pics/carwheelpat.png" alt="car wheel pattern" className="w-[47%] xl:h-[800px] h-[500px] xl:w-full" />
+</div>
 
-   {/*imgs row, scroller */}
- <div className="w-full overflow-x-hidden -mt-[46rem] md:mt-0">
-    <div className="flex w-max gap-3 animate-scrollLeft will-change-transform scrollbar-transparent lg:mt-9">
-        <img src="./pics/sixthimg.png" alt="" className="w-[200px]" />
-        <img src="./pics/seventhimg.png" alt="" className="w-[200px]"/>
-        <img src="./pics/eightimg.png" alt="" className="w-[200px]" />
-        <img src="./pics/ninethimg.png" alt="" className="w-[200px]" />
-        <img src="./pics/tenimg.png" alt="" className="w-[200px]"/>
-        <img src="./pics/sixthimg.png" alt="" className="w-[200px]"/>
-        <img src="./pics/seventhimg.png" alt="" className="w-[200px]" />
-        <img src="./pics/eightimg.png" alt="" className="w-[200px]"/>
-        <img src="./pics/ninethimg.png" alt="" className="w-[200px]"/>
-        <img src="./pics/tenimg.png" alt="" className="w-[200px]"/>
-        
-    </div>
+{/* imgs row, scroller */}
+<div className="w-full overflow-x-hidden relative z-10 mt-[-460px] md:mt-[-440px] lg:mt-[-450px] xl:mt-[-720px]">
+  <div className="flex w-max gap-3 animate-scrollLeft will-change-transform scrollbar-transparent lg:mt-9">
+    <img src="./pics/sixthimg.png" alt="" className="w-[200px]" />
+    <img src="./pics/seventhimg.png" alt="" className="w-[200px]"/>
+    <img src="./pics/eightimg.png" alt="" className="w-[200px]" />
+    <img src="./pics/ninethimg.png" alt="" className="w-[200px]" />
+    <img src="./pics/tenimg.png" alt="" className="w-[200px]"/>
+    <img src="./pics/sixthimg.png" alt="" className="w-[200px]"/>
+    <img src="./pics/seventhimg.png" alt="" className="w-[200px]" />
+    <img src="./pics/eightimg.png" alt="" className="w-[200px]"/>
+    <img src="./pics/ninethimg.png" alt="" className="w-[200px]"/>
+    <img src="./pics/tenimg.png" alt="" className="w-[200px]"/>
+  </div>
  </div> 
  {/*links to socia media */}
     <div className="-ml-1">
