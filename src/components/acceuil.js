@@ -182,10 +182,10 @@ export default function Acceuil() {
   </div>
 </div>
 
-<div className="flex md:justify-center mx-4 md:ml-6 md:mb-5  lg:items-center min-h-screen relative xl:bottom-[670px] lg:bottom-[450px] 2xl:bottom-[750px] bottom-[470px] md:bottom-[380px] w-full" >
+<div className="flex md:justify-center mx-4  md:mx-3 md:mb-5  lg:items-center min-h-screen relative xl:bottom-[670px] lg:bottom-[450px] 2xl:bottom-[750px] bottom-[470px] md:bottom-[380px] w-full" >
   <div className="flex flex-col md:flex-row items-start lg:gap-[70px] gap-[50px] 2xl:gap-[90px]">
     <div>
-      <img src="/pics/apr-pic.png" alt="a propos picture" className="lg:w-[490px] lg:h-[390px] 2xl:w-[600px] 2xl:h-[490px] md:w-[400px] md:h-[390px] ml-3 hidden md:block" />
+      <img src="/pics/apr-pic.png" alt="a propos picture" className="lg:w-[490px] lg:h-[390px] 2xl:w-[600px] 2xl:h-[490px] md:w-[350px] md:h-[390px] ml-3 hidden md:block" />
     </div>
     <div>
       <div className="w-[130px] 2xl:w-[150px]  mb-4 hidden md:block">
@@ -194,8 +194,9 @@ export default function Acceuil() {
       <div className="font-neo text-[#320606] lg:text-[17px] 2xl:text-[20px] text-[15px] font-light 2xl:w-[600px] lg:w-[500px] md:w-[370px] w-[90%] mb-3">
         Découvrez des solutions <br />abordables pour votre voiture<span className="text-red-600">!</span>
       </div>
-      <div className="lg:text-[16px] 2xl:text-[19px] 2xl:w-[600px] text-[14px] lg:w-[450px] md:w-[390px] w-[90%] font-medium font-turret mb-6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor ante, posuere faucibus elit ut, aliquam convallis nislonvMaecenas ultricies in neque. Lorem ipsum dolor sit cibus elit ut.
+      <div className="lg:text-[16px] 2xl:text-[19px] 2xl:w-[600px] text-[14px] lg:w-[450px] md:w-[330px] w-[90%] font-medium font-turret mb-6">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor ante, posuere faucibus elit ut, aliquam convallis nislonvMaecenas ultricies in neque. 
+        Lorem ipsum dolor sit cibus elit ut.
       </div>
       <button
         style={{
@@ -254,7 +255,7 @@ export default function Acceuil() {
 </div>
 
 </div>
-<div className='mt-20 sm:mt-[100px] lg:mt-0'>
+<div className='mt-20 sm:mt-[100px] lg:mt-0 md:mt-[140px] xl:-mt-10'>
   <HomePga/>
 </div>
 
