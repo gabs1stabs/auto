@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ServiceCarousel from './servicecarousel';
@@ -80,8 +79,10 @@ export default function Acceuil() {
   };
 
   return (
-    <div>
-      <div className='text-center md:w-[550px] ml-4 mr-5 relative md:top-[70px] top-[18px]  left-1/2 transform -translate-x-1/2 p-[13px_0] md:p-[13px_10px] z-10 font-turret'
+    <div className='w-full ' >
+      <div className='text-center md:w-[400px] sm:w-[350px] sm:text-[17px] 
+      xs:w-[320px] ml-4 mr-5 relative md:top-[50px] top-[16px] lg:w-[560px] lg:top-[65px]
+       left-1/2 transform -translate-x-1/2 p-[13px_0] md:p-[13px_10px] z-10 font-turret'
       style={{
         borderTop: "1.5px solid transparent",
         borderBottom: "1.5px solid transparent",
@@ -96,8 +97,8 @@ export default function Acceuil() {
         <img
           src='/pics/car1.png' 
           alt='before car' 
-          className='w-full md:h-[500px] h-[250px] sm:h-[300px]  m-0' />
-                <div className="absolute top-0 left-0 w-full md:h-[90px] h-[60px] sm:h-[75px] pointer-events-none"
+          className='w-full md:h-[400px] lg:h-[500px] xs:h-[200px] xxs:h-[180px] sm:h-[300px]  m-0' />
+                <div className="absolute top-0 left-0 w-full md:h-[90px] xs:h-[50px] xxs:h-[40px] sm:h-[75px] pointer-events-none"
                       style={{
                       backdropFilter: "blur(0.5px)",
                       WebkitBackdropFilter: "blur(0.5px)",
@@ -106,9 +107,9 @@ export default function Acceuil() {
         <img 
           src='/pics/car2.png' 
           alt='after car' 
-          className='w-full md:h-[500px] sm:h-[300px] h-[250px] absolute inset-0 ' 
+          className='w-full md:h-[400px] lg:h-[500px] sm:h-[300px] xs:h-[200px] xxs:h-[180px] absolute inset-0 ' 
           style={{clipPath: `polygon(0 0, ${revealAfterBeforePic * 100}% 0, ${revealAfterBeforePic * 100}% 100%, 0 100%)`}} />
-                 <div className="absolute top-0 left-0 w-full md:h-[150px] sm:h-[75px] h-[60px] pointer-events-none" 
+                 <div className="absolute top-0 left-0 w-full md:h-[150px] sm:h-[75px] xxs:h-[40px] xs:h-[50px] pointer-events-none" 
                       style={{
                       backdropFilter: "blur(1.5px)",
                       WebkitBackdropFilter: "blur(1px)",
@@ -210,7 +211,8 @@ export default function Acceuil() {
       <div style={{
         borderTop:"1px solid transparent",
         borderImage: "linear-gradient(to right, black, white) 1",
-        marginTop:"20px"
+        marginTop:"20px",
+        width:"80%"
       }}/>
       <div className="flex items-center gap-2  mt-4">
         <img src="/pics/phone-icon.png" alt="Phone icon" className="w-[40px] 2xl:w-[60px]" />
@@ -245,7 +247,7 @@ export default function Acceuil() {
   </div>
 
 <div className="flex justify-center lg:-mt-[680px] xl:-mt-[790px] md:-mt-[600px] mt-[350px]">
-  <div className="relative w-full">
+  <div className="relative w-full  ">
     <img src="/pics/rec-back.png" alt="Background" className="block top-0 right-0 h-[200px] sm:h-auto 3xl:h-[400px]  w-full" />
     <img src="/pics/frame-back.png" className="absolute top-0 right-0 h-[200px] sm:h-auto w-full  3xl:h-[400px]"/>
     <div className="absolute md:top-[160px] 2xl:top-[260px] sm:top-[120px] top-[100px] left-1/2 transform -translate-x-1/2 w-full ">
@@ -255,9 +257,7 @@ export default function Acceuil() {
 </div>
 
 </div>
-<div className='mt-20 sm:mt-[100px] lg:mt-0 md:mt-[140px] xl:-mt-10'>
-  <HomePga/>
-</div>
+
 
 
 </div>

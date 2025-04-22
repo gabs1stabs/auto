@@ -8,7 +8,7 @@ export default function Navbar() {
   const location = useLocation();
   
   return (
-    <nav className="w-full z-[1000] mt-2">
+    <nav className="w-full z-[1000] mt-2 ">
       <div className="w-full font-space  items-center justify-between bg-gradient-to-r from-[#c23434] to-[#8e0d0d] lg:p-[10px] lg:flex hidden">
         <div className="flex items-center lg:gap-2 2xl:gap-3 xl:ml-4 ">
           <a href="https://www.instagram.com/"><img src="/pics/inst1.png" className="lg:h-[30px] lg:w-[30px] 2xl:w-[35px] 2xl:h-[35px] md:h-[26px] md:w-[26px]" /></a>
@@ -43,8 +43,8 @@ export default function Navbar() {
           </button>
         </div>
         
-        <div className="flex justify-center mt-4 mb-2">
-          <img src="/pics/logo2.png" className="w-[110px] h-[85px]" />
+        <div className="flex justify-center mt-4 mb-2 md:mt-11">
+          <img src="/pics/logo2.png" className="w-[110px] h-[85px] md:w-[130px] md:h-[95px]" />
         </div>
       </div>
       <div className={`fixed top-0 left-0 w-full h-full bg-gradient-to-b from-red-800 to-red-950 z-[2000] flex flex-col items-center justify-center transition-all duration-300 ${isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}>
@@ -121,24 +121,24 @@ export default function Navbar() {
         <LangSwitch />
       </div>
       
-      <div className="w-full  justify-center font-neo hidden lg:flex">
+      <div className="w-full justify-center font-neo hidden lg:flex">
         <div className="xl:w-[60%] 3xl:w-[55%] flex items-center justify-between relative top-9  ">
-          <ul className="flex skew-x-[15deg] items-center xl:gap-8 2xl:gap-10 gap-4 list-none xl:pl-11 lg:pl-9 3xl:pl-12 2xl:py-4 py-2 2xl:mr-4 3xl:py-[19px] xl:mr-6 3xl:mr-3">
+          <ul className="flex skew-x-[15deg] items-center xl:gap-8 2xl:gap-10 gap-4 list-none xl:pl-11 lg:pl-10  3xl:pl-12 2xl:py-4 py-2 2xl:mr-4 3xl:py-[19px] xl:mr-6 3xl:mr-3">
           <div class="absolute inset-y-0 left-0 w-px bg-gradient-to-r bg-[#c67070]"></div>
           <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-[#c67070] to-transparent"></div>
           <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-[#c67070] to-transparent"></div>
             <li className="skew-x-[-15deg]">
-              <Link to="/Acceuil" className="text-[#32060699] hover:text-red-600 hover:underline text-[10px] 2xl:text-[12px]">ACCEUIL</Link>
+              <Link to="/Acceuil" className={`text-${location.pathname === "/Acceuil" ? "red-600 font-semibold text-[10px] 2xl:text-[12px]" : "[#32060699] text-[10px] 2xl:text-[12px]"}`}>ACCEUIL</Link>
             </li>
             <li className="skew-x-[-15deg]">
-              <Link to="/Apropos" className="text-[#32060699] hover:text-red-600 hover:underline text-[10px] 2xl:text-[12px]">A-PROPOS</Link>
+              <Link to="/Apropos" className={`text-${location.pathname === "/Apropos" ? "red-600 font-semibold text-[10px] 2xl:text-[12px]" : "[#32060699] text-[10px] 2xl:text-[12px]"}`}>A-PROPOS</Link>
             </li>
             <li className="skew-x-[-15deg]">
-              <Link to="/Services" className="text-[#32060699] hover:text-red-600 hover:underline text-[10px] 2xl:text-[12px]">SERVICES</Link>
+              <Link to="/Services" className={`text-${location.pathname === "/Services" ? "red-600 font-semibold text-[10px] 2xl:text-[12px]" : "[#32060699] text-[10px] 2xl:text-[12px]"}`}>SERVICES</Link>
             </li>
           </ul>
           
-          <div className="relative left-3 -top-3">
+          <div className="relative left-3 lg:-top-2">
             <img src="/pics/logo2.png" className="w-[110px] h-[85px] 2xl:w-[130px] 2xl:h-[95px] 3xl:w-[140px] 3xl:h-[100px]" />
           </div>
           <ul className="flex skew-x-[-15deg] items-center xl:gap-8 gap-4 2xl:gap-10 list-none lg:pr-8 xl:pr-11 3xl:pr-12 2xl:py-4 3xl:py-[19px] py-2 2xl:ml-4 lg:ml-6  3xl:ml-3 ">
@@ -146,13 +146,13 @@ export default function Navbar() {
           <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-l from-[#c67070] to-transparent"></div>
           <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-l from-[#c67070] to-transparent"></div>
             <li className="skew-x-[15deg]">
-              <Link to="/Nosprojets"  className=" text-[#32060699] hover:text-red-600 hover:underline text-[10px] 2xl:text-[12px]">NOS PROJETS</Link>
+              <Link to="/Nosprojets"  className={`text-${location.pathname === "/Nosprojets" ? "red-600 font-semibold text-[10px] 2xl:text-[12px]" : "[#32060699] text-[10px] 2xl:text-[12px]"}`}>NOS PROJETS</Link>
             </li>
             <li className="skew-x-[15deg]">
-              <Link to="/Gallery" className="text-[#32060699] hover:text-red-600 hover:underline text-[10px] 2xl:text-[12px]">GALLERY</Link>
+              <Link to="/Gallery" className={`text-${location.pathname === "/Gallery" ? "red-600 font-semibold text-[10px] 2xl:text-[12px]" : "[#32060699] text-[10px] 2xl:text-[12px]"}`}>GALLERY</Link>
             </li>
             <li className="skew-x-[15deg]">
-              <Link to="/Contact" className="text-[#32060699] hover:text-red-600 hover:underline text-[10px] 2xl:text-[12px]">CONTACT</Link>
+              <Link to="/Contact" className={`text-${location.pathname === "/Contact" ? "red-600 font-semibold text-[10px] 2xl:text-[12px]" : "[#32060699] text-[10px] 2xl:text-[12px]"}`}>CONTACT</Link>
             </li>
           </ul>
         </div>
