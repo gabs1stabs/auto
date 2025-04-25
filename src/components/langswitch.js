@@ -10,8 +10,8 @@ const languageOptions = [
         <img
           src="/flags/en.png"
           alt="English"
-          style={{ width: "24px", height: "24px", marginRight: "10px" ,}}
-        />
+          style={{ marginRight: "10px" }}
+          className="h-[26px] lg:h-[27px] 2xl:h-[32px] 4xl:h-[34px] 8xl:h-[42px] 1xl:h-[46px] w-full"        />
       </div>
     ),
     flag: "/flags/en.png",
@@ -23,7 +23,8 @@ const languageOptions = [
         <img
           src="/flags/fr.png"
           alt="Français"
-          style={{ width: "24px", height: "24px", marginRight: "10px" }}
+          style={{ marginRight: "10px" }}
+          className="h-[26px] lg:h-[27px] 2xl:h-[32px] 4xl:h-[34px] 8xl:h-[42px] 1xl:h-[46px] w-full"
         />
       </div>
     ),
@@ -36,8 +37,8 @@ const languageOptions = [
         <img
           src="/flags/mr.png"
           alt="Morocco"
-          style={{ width: "24px", height: "24px", marginRight: "10px"  }}
-        />
+          style={{ marginRight: "10px" }}
+          className="h-[26px] lg:h-[27px] 2xl:h-[32px] 4xl:h-[34px] 6xl:h-[38px] 8xl:h-[42px] 1xl:h-[46px] w-full"        />
       </div>
     ),
     flag: "/flags/mr.png",
@@ -72,8 +73,7 @@ export default function LangSwitch() {
   };
 
   return (
-    <div style={{ width: "150px",
-  }}>
+    <div  className="w-[160px] 2xl:w-[180px] 4xl:w-[205px] 6xl:w-[230px] 8xl:w-[270px] 1xl:w-[320px]">
       <Select
         options={languageOptions}
         value={languageOptions.find((option) => option.value === selectedLang)}
@@ -87,6 +87,22 @@ export default function LangSwitch() {
             borderColor: "#ccc",
             border: "none",
             borderRadius: "0px",
+            padding: "0 0",
+            "@media (min-width: 1536px)": {
+              padding: "4px 1px",
+            },
+            "@media (min-width: 1900px)": {
+              padding: "5px 2px",
+            },
+            "@media (min-width: 2300px)": {
+              padding: "8px 3px",
+            },
+            "@media (min-width: 2700px)": {
+              padding: "10px 4px",
+            },
+            "@media (min-width: 3100px)": {
+              padding: "13px 5px",
+            },
           }),
           option: (provided) => ({
             ...provided,
@@ -96,25 +112,54 @@ export default function LangSwitch() {
           }),
           dropdownIndicator: (provided) => ({
             ...provided,
-            padding: "2px",
+            padding: "px",
             width: "20px",
-            height: "22px",
-            marginRight: "3px",
+            height: "25px",
+            marginRight: "4px",
             backgroundColor: "#f4f4f4",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
             color: "transparent",
-            backgroundImage: "url('/flags/ArrDown.png')",
+            backgroundImage: "url('/flags/arrdown.svg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
+            paddingRight: "2px",
+            width: "18px",
+            height: "23px",
+            
+            "@media (min-width: 1536px)": {
+              paddingRight: "1px",
+              width: "22px",
+              height: "27px",
+            },
+            "@media (min-width: 1900px)": {
+              paddingRight: "2px",
+              width: "24px",
+              height: "30px",
+            },
+            "@media (min-width: 2300px)": {
+              paddingRight: "4px",
+              width: "28px",
+              height: "30px",
+            },
+            "@media (min-width: 2700px)": {
+              paddingRight: "6px",
+              width: "40px",
+              height: "30px",
+            },
+            "@media (min-width: 3100px)": {
+              paddingRight: "7px",
+              width: "50px",
+              height: "30px",
+            },
           }),
           menu: (provided) => ({
             ...provided,
             width: "35%",
             marginTop: "0px",
-            marginRight:"20px",
+            marginRight:"23px",
             borderRadius: "0px",
             boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
           }),
@@ -123,6 +168,7 @@ export default function LangSwitch() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            
           }),
           container: (provided) => ({
             ...provided,

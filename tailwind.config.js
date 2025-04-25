@@ -25,10 +25,11 @@ module.exports = {
       }
     },
     screens: {
-      'xxs': '360px',
-      'xs': '428px',
+      'xs': '430px',
+      '2xs': '530px',
       'sm': '640px',
       'md': '768px',
+      'mg': '896px',
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',
@@ -38,7 +39,8 @@ module.exports = {
       '6xl': '2300px',
       '7xl': '2500px',
       '8xl': '2700px',
-      '9xl': '3000px',
+      '9xl': '2900px',
+      '1xl': '3100px',
     }
     
     

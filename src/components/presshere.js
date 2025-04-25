@@ -6,16 +6,14 @@ export default function PressHere() {
 
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center bg-no-repeat bg-center bg-cover font-turret"
-         style={{ backgroundImage: "url('/pics/bg1.png')" }}>
+         style={{ backgroundImage: "url('/pics/bg1.svg')"}}>
       <div className="flex flex-col items-center justify-center w-4/5 max-w-4xl space-y-4 sm:space-y-6 md:space-y-8 lg:space-y-10">
-        {/* Logo - scales gradually with viewport width */}
         <img
           src="/pics/logo2.png"
           alt="logo"
           className="w-20 h-16 sm:w-24 sm:h-20 md:w-28 md:h-24 lg:w-32 lg:h-28 xl:w-36 xl:h-32"
         />
         
-        {/* Border with Text */}
         <div className="relative flex items-center justify-center w-full">
           <img
             src="/pics/brdTrns.png"
@@ -29,7 +27,6 @@ export default function PressHere() {
           </div>
         </div>
         
-        {/* Button with original shadow styling */}
         <button
           className="mt-2 sm:mt-3 md:mt-4 
                     w-28 sm:w-32 md:w-36 lg:w-40 xl:w-44 
