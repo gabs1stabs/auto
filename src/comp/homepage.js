@@ -205,7 +205,7 @@ export default function HomePga(){
       onChange={(e) => setMessage(e.target.value)}
       className="w-full p-3 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px] custom-input h-40 resize-none"
     />
-    <button className="bg-gradient-to-r from-[#C81717] to-[#700000] text-white px-4 py-2  shadow-md w-full " style={{clipPath:"polygon(20% 0%, 98% 0, 100% 22%, 100% 100%, 80% 100%, 3% 100%, 0 77%, 0 0)"}}>
+    <button className="button bg-gradient-to-r from-[#C81717] to-[#700000] text-white px-4 py-2  shadow-md w-full " style={{clipPath:"polygon(20% 0%, 98% 0, 100% 22%, 100% 100%, 80% 100%, 3% 100%, 0 77%, 0 0)"}}>
       Envoyé
     </button>
   </form>
@@ -314,7 +314,7 @@ export default function HomePga(){
       onChange={(e) => setMessage(e.target.value)}
       className="w-full p-3 lg:p-4 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px] custom-input h-32 resize-none"
     />
-    <button className="bg-gradient-to-r from-[#C81717] to-[#700000] text-white px-4 py-2 shadow-md w-[313.51px] xl:w-[400px] " style={{clipPath:"polygon(20% 0%, 98% 0, 100% 22%, 100% 100%, 80% 100%, 3% 100%, 0 77%, 0 0)"}}>
+    <button className="button bg-gradient-to-r from-[#C81717] to-[#700000] text-white px-4 py-2 shadow-md w-[313.51px] xl:w-[400px] " style={{clipPath:"polygon(20% 0%, 98% 0, 100% 22%, 100% 100%, 80% 100%, 3% 100%, 0 77%, 0 0)"}}>
       Envoyé
     </button>
   </form>
@@ -324,6 +324,7 @@ export default function HomePga(){
 >
   © SOFTCACTUS, Tous les droits sont réservés, 2025
 </div>
+
 </div>
 
         <p className="text-[#585858] md:text-[19.21px] md:mt-[2rem]   md:text-center uppercase md:font-turretBold lg:text-center lg:ml-60 xl:text-[23px] GrayRightsReserved "><a href="https://softcactus.ma/" target="_blank">© SOFTCACTUS, Tous les droits sont réservés, 2025</a></p> <br/>

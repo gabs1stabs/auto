@@ -34,7 +34,7 @@ export default function Navbar() {
           <img src="/pics/arright.svg" alt=""  className=" lg:h-[11px] xl:h-[12px] 4xl:h-[16px] 6xl:h-[18px]  8xl:h-[22px] 1xl:h-[27px] w-auto 2xl:ml-4 3xl:ml-5 5xl:ml-6  8xl:ml-8 1xl:ml-9 lg:ml-2 lg:mr-1 " />
         </div>
       </div>
-      <div className="absolute lg:top-3.5 lg:ml-6 xl:ml-8 2xl:top-[23px] lg:right-[-55px] xl:right-[-50px] 2xl:right-[-45px] 4xl:top-[25px]  6xl:top-[34px] hidden lg:block ">
+      <div className="absolute lg:top-3.5 lg:ml-6 xl:ml-8 xl:top-[10px] 2xl:top-[13px] lg:right-[-55px] xl:right-[-50px] 2xl:right-[-45px]  hidden lg:block ">
         <LangSwitch />
       </div>
 

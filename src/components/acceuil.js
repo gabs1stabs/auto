@@ -193,19 +193,19 @@ export default function Acceuil() {
 	       <div className="lg:m-[10px] mr-2 sm:mr-3 ">
 		          <img src="/pics/design-r1.png" alt="Design" className=" w-[95px] h-[20px] xs:w-[130px] xs:h-[21px] 2xs:w-[160px] 2xs:h-[23px] sm:h-[26px] sm:w-[185px]
               md:w-[100px] md:h-[23px] lg:h-[26px] lg:w-[125px] 2xl:w-[160px] 2xl:h-[40px] 3xl:w-[170px] 3xl:h-[41px] 4xl:w-[185px] 4xl:h-[43px]
-              5xl:w-[180px] 5xl:h-[50px] 6xl:w-[190px] 6xl:h-[60px] 7xl:w-[200px] 7xl:h-[65px] 8xl:w-[210px] 8xl:h-[70px] 9xl:w-[220px] 9xl:h-[80px]
-              1xl:w-[240px] 1xl:h-[90px]" />       
+              5xl:w-[180px] 5xl:h-[50px] 6xl:w-[190px] 6xl:h-[60px] 7xl:w-[200px] 7xl:h-[65px] 8xl:w-[220px] 8xl:h-[70px] 9xl:w-[230px] 9xl:h-[80px]
+              1xl:w-[260px] 1xl:h-[88px]" />       
 	       </div>     
 	       <div className="whitespace-nowrap text-[#320606] font-neo font-light text-[18px] xs:text-[21px] 2xs:text-[24px] sm:text-[28px] md:text-[24px] 
               lg:text-[27px] 2xl:text-[36px] 3xl:text-[39px] 4xl:text-[44px] 5xl:text-[49px] 6xl:text-[52px] 7xl:text-[58px] 8xl:text-[62px]
-              9xl:text-[66px] 1xl:text-[71px]">
+              9xl:text-[66px] 1xl:text-[75px]">
               QUI SOMMES <span style={{color:"#a71818"}}>NOUS</span>
 	       </div>
 	       <div className="lg:m-[10px] ml-2 sm:ml-3">         
 			        <img src="/pics/design-r.png" alt="Design" className=" w-[95px] h-[20px] xs:w-[130px] xs:h-[21px] 2xs:w-[160px] 2xs:h-[23px] sm:h-[26px] sm:w-[185px]
               md:w-[100px] md:h-[23px] lg:h-[26px] lg:w-[125px] 2xl:w-[160px] 2xl:h-[40px] 3xl:w-[170px] 3xl:h-[41px] 4xl:w-[185px] 4xl:h-[43px]
-              5xl:w-[180px] 5xl:h-[50px] 6xl:w-[190px] 6xl:h-[60px] 7xl:w-[200px] 7xl:h-[65px] 8xl:w-[210px] 8xl:h-[70px] 9xl:w-[220px] 9xl:h-[80px]
-              1xl:w-[240px] 1xl:h-[90px]" />       
+              5xl:w-[180px] 5xl:h-[50px] 6xl:w-[190px] 6xl:h-[60px] 7xl:w-[200px] 7xl:h-[65px] 8xl:w-[220px] 8xl:h-[70px] 9xl:w-[230px] 9xl:h-[80px]
+              1xl:w-[260px] 1xl:h-[88px]" />       
 		     </div>     
 	  </div>   
   </div>
@@ -280,42 +280,43 @@ export default function Acceuil() {
 
 <div className='relative -mt-[270px] sm:-mt-[245px] md:mt-[700px] mg:mt-[720px] lg:mt-[800px] xl:mt-[920px] 2xl:mt-[950px] 
  4xl:mt-[1000px]'>
-   <div className="absolute 2xl:top-16 3xl:top-[90px] sm:top-[60px] top-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-full">
+   <div className="absolute 2xl:top-16 3xl:top-[90px] 4xl:top-[110px] 9xl:top-[140px] sm:top-[60px] top-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-full">
     <div className="lg:m-[10px] md:mr-3 mr-1 sm:ml-2 2xl:m-[14px] ">
       <img src="/pics/design-w1.png" alt="Design" className=" w-[95px] h-[20px] xs:w-[130px] xs:h-[21px] 2xs:w-[160px] 2xs:h-[23px] sm:h-[26px] sm:w-[185px]
               md:w-[100px] md:h-[23px] lg:h-[26px] lg:w-[125px] 2xl:w-[160px] 2xl:h-[40px] 3xl:w-[170px] 3xl:h-[45px] 4xl:w-[185px] 4xl:h-[43px]
               5xl:w-[180px] 5xl:h-[50px] 6xl:w-[190px] 6xl:h-[60px] 7xl:w-[200px] 7xl:h-[65px] 8xl:w-[210px] 8xl:h-[70px] 9xl:w-[220px] 9xl:h-[80px]
-              1xl:w-[240px] 1xl:h-[90px]" />
+              1xl:w-[270px] 1xl:h-[88px]" />
     </div>
     <div className="font-neo font-light whitespace-nowrap text-white text-[16px] xs:text-[19px] 2xs:text-[22px] sm:text-[24px]  
         lg:text-[28px] 2xl:text-[36px] 3xl:text-[39px] 4xl:text-[44px] 5xl:text-[49px] 6xl:text-[52px] 7xl:text-[58px] 8xl:text-[62px]
-        9xl:text-[66px] 1xl:text-[71px]">
+        9xl:text-[66px] 1xl:text-[75px]">
         NOS SERVICES <span style={{ color: "#a71818" }}>AUTO</span>
     </div>
     <div className="lg:m-[10px] ml-1 md:ml-3 sm:ml-0 2xl:m-[14px]">
       <img src="/pics/design-w.png" alt="Design" className=" w-[95px] h-[20px] xs:w-[130px] xs:h-[21px] 2xs:w-[160px] 2xs:h-[23px] sm:h-[26px] sm:w-[185px]
               md:w-[100px] md:h-[23px] lg:h-[26px] lg:w-[125px] 2xl:w-[160px] 2xl:h-[40px] 3xl:w-[170px] 3xl:h-[45px] 4xl:w-[185px] 4xl:h-[43px]
-              5xl:w-[180px] 5xl:h-[50px] 6xl:w-[190px] 6xl:h-[60px] 7xl:w-[200px] 7xl:h-[65px] 8xl:w-[210px] 8xl:h-[70px] 9xl:w-[220px] 9xl:h-[80px]
-              1xl:w-[240px] 1xl:h-[90px]" />
+              5xl:w-[180px] 5xl:h-[50px] 6xl:w-[190px] 6xl:h-[60px] 7xl:w-[200px] 7xl:h-[65px] 8xl:w-[230px] 8xl:h-[70px] 9xl:w-[250px] 9xl:h-[80px]
+              1xl:w-[270px] 1xl:h-[88px]" />
     </div>
-    <div className='font-turret absolute text-white 2xl:top-[90px] 3xl:top-[100px] sm:top-[50px] xl:top-[70px] top-[40px] xs:text-[17px] text-[16px] 
-            mg:text-[24px]  lg:text-[28px] 2xl:text-[34px] 3xl:text-[40px] 5xl:text-[46px] sm:text-[22px]'>" L'EXCELLENCE À CHAQUE RÉPARATION "</div> 
+    <div className='font-turret absolute text-white 2xl:top-[90px] 3xl:top-[100px] 4xl:top-[110px] 5xl:top-[130px] 7xl:top-[150px] 8xl:top-[170px] sm:top-[50px] xl:top-[70px] top-[40px] xs:text-[17px] text-[16px] 
+            mg:text-[24px]  lg:text-[28px] 2xl:text-[34px] 3xl:text-[40px] 5xl:text-[46px] 6xl:text-[48px] 7xl:text-[51px] 8xl:text-[54px] 9xl:text-[58px] 1xl:text-[64px] sm:text-[22px]'>" L'EXCELLENCE À CHAQUE RÉPARATION "</div> 
   </div>
 
 <div className="flex justify-center lg:-mt-[680px] xl:-mt-[790px] md:-mt-[600px] mt-[350px] ">
   <div className="relative w-full ">
-    <img src="/pics/rec-back.png" alt="Background" className="block top-0 right-0 h-[200px] xs:h-[220px] sm:h-[260px] lg:h-[280px] xl:h-[300px] 2xl:h-[350px] 3xl:h-[430px] 5xl:h-[460px]
-    6xl:h-[490px] 7xl:h-[520px] 8xl:h-[550px] 9xl:h-[580px] 1xl:h-[610px] w-full" />
-    <img src="/pics/frame-back.png" className="absolute top-0 right-0 h-[200px] xs:h-[220px] sm:h-[260px] lg:h-[280px] xl:h-[300px] 2xl:h-[350px] 5xl:h-[460px] w-full 6xl:h-[490px]
-     3xl:h-[430px] 7xl:h-[520px] 8xl:h-[550px] 9xl:h-[580px] 1xl:h-[610px]"/>
-    <div className="absolute sm:top-[155px] xl:top-[180px] 2xl:top-[200px] 3xl:top-[260px]  top-[100px] left-1/2 transform -translate-x-1/2 w-full ">
+    <img src="/pics/rec-back.png" alt="Background" className="block top-0 right-0 h-[200px] xs:h-[220px] sm:h-[260px] lg:h-[280px] xl:h-[300px] 2xl:h-[350px] 3xl:h-[430px] 4xl:h-[480px] 5xl:h-[500px]
+    6xl:h-[540px] 7xl:h-[600px] 8xl:h-[650px] 9xl:h-[700px] 1xl:h-[750px] w-full" />
+    <img src="/pics/frame-back.png" className="absolute top-0 right-0 h-[200px] xs:h-[220px] sm:h-[260px] lg:h-[280px] xl:h-[300px] 2xl:h-[350px] 5xl:h-[500px] 4xl:h-[480px] w-full 6xl:h-[540px]
+     3xl:h-[430px] 7xl:h-[600px] 8xl:h-[650px] 9xl:h-[700px] 1xl:h-[750px]"/>
+    <div className="absolute sm:top-[155px] xl:top-[180px] 2xl:top-[200px] 3xl:top-[260px] 4xl:top-[290px] 5xl:top-[300px] 6xl:top-[320px] 7xl:top-[360px] 8xl:top-[380px] 9xl:top-[400px] top-[100px] left-1/2 transform -translate-x-1/2 w-full ">
       <ServiceCarousel />
     </div>
   </div>
 </div>
 
 </div>
-<div className='mt-[30px]'>
+<div className='mt-[30px] 2xl:mt-[100px] 5xl:mt-[150px] 6xl:mt-[200px]'>
+  <HomePga/>
 </div>
 
 
