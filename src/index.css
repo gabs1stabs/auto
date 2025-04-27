@@ -6,4 +6,20 @@
     margin:0 10px;
 }
   
-  
+
+.intro-video::-webkit-media-controls {
+  display: none !important;
+}
+.intro-video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+.intro-video::-webkit-media-controls-panel {
+  display: none !important;
+}
+.intro-video::-moz-media-controls { 
+    display: none !important;
+}
+.intro-video {
+  pointer-events: none; 
+}
+

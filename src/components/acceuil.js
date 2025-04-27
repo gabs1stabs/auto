@@ -153,8 +153,8 @@ export default function Acceuil() {
                   key={`first-${i}`}
                   src={src}
                   alt="pic"
-                  className="mx-[20px] w-[60px] h-[40px] sm:mx-[30px] sm:w-[100px] sm:h-[55px] md:w-[120px] md:h-[70px] md:mx-[50px]
-                  3xl:w-[140px] 3xl:h-[95px] 3xl:mx-[70px] 4xl:w-[160px] 4xl:h-[105px] 4xl:mx-[90px] 5xl:w-[180px] 5xl:h-[115px] 5xl:mx-[120px]
+                  className="mx-[20px] w-[60px] h-[40px] sm:mx-[30px] sm:w-[100px] sm:h-[55px] md:w-[120px] md:h-[70px] md:mx-[50px] 
+                   3xl:w-[140px] 3xl:h-[95px] 3xl:mx-[70px] 4xl:w-[160px] 4xl:h-[105px] 4xl:mx-[90px] 5xl:w-[180px] 5xl:h-[115px] 5xl:mx-[120px]
                   6xl:w-[200px] 6xl:h-[125px] 6xl:mx-[130px] 7xl:w-[220px] 7xl:h-[135px] 7xl:mx-[140px] 8xl:w-[240px] 8xl:h-[145px] 8xl:mx-[150px] 
                    9xl:w-[270px] 9xl:h-[195px] 9xl:mx-[180px]"
                 />

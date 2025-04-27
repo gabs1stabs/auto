@@ -21,20 +21,20 @@ export default function Navbar() {
         </div>
         
         <div className="flex flex-grow  xl:justify-center items-center w-full">
-          <img src="/pics/arrleft.svg" alt=""  className=" lg:h-[11px] xl:h-[12px] 2xl:h-[14px] 4xl:h-[16px] 6xl:h-[18px] 8xl:h-[22px] 1xl:h-[27px] w-auto lg:mr-2 lg:ml-1 3xl:ml-5 2xl:mr-4 5xl:mr-6 8xl:mr-7 1xl:mr-9" />
+          <img src="/pics/arrleft.svg" alt=""  className=" lg:h-[11px] xl:h-[12px] 2xl:h-[14px] 4xl:h-[16px] 6xl:h-[18px] 8xl:h-[22px] 1xl:h-[27px] w-auto lg:mr-2 lg:ml-4 3xl:ml-5 2xl:mr-4 5xl:mr-6 8xl:mr-7 1xl:mr-9" />
           <div 
             className="flex items-center lg:gap-2  2xl:gap-4 4xl:gap-5 6xl:gap-6 8xl:gap-7 1xl:gap-8 text-white lg:text-[12px] xl:text-[13px]  2xl:text-[17px] 4xl:text-[19px] 6xl:text-[21px] 8xl:text-[25px] 1xl:text-[30px] font-medium">
             <img src="/pics/phone.svg" alt=""  className="lg:h-[18px] lg:w-[18px] xl:h-[20px] xl:w-[26px] 2xl:h-[23px] 2xl:w-[29px] 4xl:h-[25px] 4xl:w-[32px] 6xl:h-[27px] 6xl:w-[34px]  8xl:h-[32px] 8xl:w-[37px] 1xl:h-[35px] 1xl:w-[40px]" />
-            <span className="lg:mr-3 md:mr-2">05 36 716 777</span>
+            <a href="tel:+2120536716777"><span className="lg:mr-3 md:mr-2">05 36 716 777</span></a>
             <img src="/pics/phone.svg" alt=""  className="lg:h-[18px] lg:w-[18px] xl:h-[20px] xl:w-[26px] 2xl:h-[23px] 2xl:w-[29px] 4xl:h-[25px] 4xl:w-[32px] 6xl:h-[27px] 6xl:w-[34px] 8xl:h-[32px] 8xl:w-[37px] 1xl:h-[35px] 1xl:w-[40px]" />
-            <span className="lg:mr-3 md:mr-2">05 36 716 778</span>
+            <a href="tel:+2120536716778"><span className="lg:mr-3 md:mr-2">05 36 716 778</span></a>05 36 716 777
             <img src="/pics/email.svg" alt=""  className="lg:h-[18px] lg:w-[18px] xl:h-[20px] xl:w-[26px] 2xl:h-[22px] 2xl:w-[29px] 4xl:h-[24px] 4xl:w-[32px] 6xl:h-[26px] 6xl:w-[34px] 8xl:h-[30px] 8xl:w-[37px] 1xl:h-[34px] 1xl:w-[40px]" />
-            <span>CONTACT@AUTO48.MA</span>
+            <a href="mailto:CONTACT@AUTO48.MA"><span>CONTACT@AUTO48.MA</span></a>
           </div>
           <img src="/pics/arright.svg" alt=""  className=" lg:h-[11px] xl:h-[12px] 4xl:h-[16px] 6xl:h-[18px]  8xl:h-[22px] 1xl:h-[27px] w-auto 2xl:ml-4 3xl:ml-5 5xl:ml-6  8xl:ml-8 1xl:ml-9 lg:ml-2 lg:mr-1 " />
         </div>
       </div>
-      <div className="absolute lg:top-3.5 lg:ml-6 xl:ml-8 xl:top-[10px] 2xl:top-[13px] lg:right-[-55px] xl:right-[-50px] 2xl:right-[-45px]  hidden lg:block ">
+      <div className="absolute lg:top-2 lg:ml-6 xl:ml-8  2xl:top-[13px] lg:right-[-55px] xl:right-[-50px] 2xl:right-[-45px]  hidden lg:block ">
         <LangSwitch />
       </div>
 
